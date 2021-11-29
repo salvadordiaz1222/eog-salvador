@@ -5,7 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Wrapper from './components/Wrapper';
-import NowWhat from './components/NowWhat';
+import Dashboard from './Features/Dashboard/Dashboard';
 
 const theme = createTheme({
   palette: {
@@ -26,7 +26,7 @@ const App = () => (
     <CssBaseline />
     <Wrapper>
       <Header />
-      <NowWhat />
+      <Dashboard />
       <ToastContainer />
     </Wrapper>
   </MuiThemeProvider>
