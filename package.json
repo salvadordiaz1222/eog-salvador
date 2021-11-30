@@ -18,7 +18,8 @@
     "react-toastify": "^5.4.0",
     "react-use": "^17.2.4",
     "rebound": "^0.1.0",
-    "subscriptions-transport-ws": "^0.9.19"
+    "recharts": "^2.1.6",
+    "subscriptions-transport-ws": "^0.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
